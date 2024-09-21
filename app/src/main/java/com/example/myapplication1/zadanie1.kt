@@ -36,9 +36,7 @@ fun main(){
     Maks3()
 
 
-
     //задание 5
     zadanie55()
-
 }
 
