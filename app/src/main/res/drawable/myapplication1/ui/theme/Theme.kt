@@ -1,4 +1,4 @@
-package com.example.myapplication1.ui.theme
+package drawable.myapplication1.ui.theme
 
 import android.app.Activity
 import android.os.Build
@@ -16,15 +16,15 @@ import androidx.compose.ui.platform.LocalView
 import androidx.core.view.WindowCompat
 
 private val DarkColorScheme = darkColorScheme(
-    primary = Purple80,
-    secondary = PurpleGrey80,
-    tertiary = Pink80
+    primary = drawable.myapplication1.ui.theme.Purple80,
+    secondary = drawable.myapplication1.ui.theme.PurpleGrey80,
+    tertiary = drawable.myapplication1.ui.theme.Pink80
 )
 
 private val LightColorScheme = lightColorScheme(
-    primary = Purple40,
-    secondary = PurpleGrey40,
-    tertiary = BlueLight
+    primary = drawable.myapplication1.ui.theme.Purple40,
+    secondary = drawable.myapplication1.ui.theme.PurpleGrey40,
+    tertiary = drawable.myapplication1.ui.theme.BlueLight
 
     /* Other default colors to override
     background = Color(0xFFFFFBFE),
@@ -64,7 +64,7 @@ fun MyApplication1Theme(
 
     MaterialTheme(
         colorScheme = colorScheme,
-        typography = Typography,
+        typography = drawable.myapplication1.ui.theme.Typography,
         content = content
     )
 }
